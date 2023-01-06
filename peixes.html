@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PNF | Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="navigation">
+        <ul>
+            <li>
+                <a href="index.html">
+                    <span class="icon"><i class="fa-solid fa-house"></i></span>
+                    <span class="title">Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="restaurante.html">
+                    <span class="icon"><i class="fa-solid fa-utensils"></i></span>
+                    <span class="title">Restaurante</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon"><i class="fa-solid fa-fish-fins"></i></span>
+                    <span class="title">Peixe</span>
+                </a>
+            </li>
+            <li>
+                <a href="atendimento2.html">
+                    <span class="icon"><i class="fa-solid fa-circle-question"></i></span>
+                    <span class="title">Atendimento</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <header>
+        <center>
+        <img src="./imagens/logo.png">
+        </center>
+    </header>
+
+            <main>
+                <ul class="produtos">
+                    <center>
+                    <li>
+                        <h2>Tilapia</h2>
+                        <img class="tilapia" src="./imagens/tilapia.png">
+                        <p class="produto-descricao">As tilápias são peixes criados para alimentação humana, sendo a sua carne bastante apreciada, pois é leve e saborosa.</p>
+                    </li>
+                </ul>
+            </center>
+            </main>
+            <div class="itens">
+                <ul>
+                    <li class="lista">Tilapia <strong>suja</strong> R$ 17,00 Kg</li>
+                    <li class="lista">Tilapia <strong>limpa</strong> R$ 19,00 Kg (Inteira, filé ou em posta)</li>
+                </ul>
+            </div>
+
+            <div class="titulo">
+                <h1>Entrada</h1>
+                </div>
+                <div class="tabela">
+                    <center>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Idade</th>
+                            <th>Valores</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Adulto</td>
+                            <td>R$ 20,00</td>
+                        </tr>
+                        <tr>
+                            <td>Criança (6 a 12 anos)</td>
+                            <td>Gratuito</td>
+                        </tr>
+                    </tbody>
+                </center>
+                </table>
+                </div>
+                <div class="texto">
+                    <p>Bateu aquela vontade de pescar, e não tem os equipamentos necessarios? Calma!!!</p>
+                    <p>Não se preocupe, o pesqueiro Nossa Família pode te ajudar!</p>
+                </div>
+                <div>
+                    <center>
+                <table class="tab">
+                    <tbody>
+                        <thead>
+                            <tr>
+                                <th>Aluguel de Equipamentos</th>
+                                <th>Valores</th>
+                            </tr>
+                        </thead>
+                            <tr>
+                                <td>Vara de Pesca (completa)</td>
+                                <td>R$ 7,00</td>
+                            </tr>
+                            <tr>
+                                <td>Ração</td>
+                                <td>R$ 13,00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+            </center>
+            </div>
+            <div class="observacao">
+            <p><strong>Obs: </strong>pescando acima de <strong>4 Kilos</strong> isenta o valor da pesca por pessoa, <strong>pagando somente o kilo peixe sujo ou limpo</strong>
+            </div>
+            <div class="estacionamento">
+                <p>Contamos também com um estacionamento amplo e gratuito</p>
+            </div>
+
+            <div class="footermain">
+                <div class="mainfooter">
+                <div class="peixe-palhaço"></div>
+                <div class="peixe-palhaço2"></div>
+                <div class="peixe-palhaço3"></div>
+                </div>
+                              
+                <div class="lagoinfo">
+                <div class="lagoinfo2 lagoinforight">
+                <p>© 2023 Pesqueiro Nossa Familia todos os direitos reservados.</p>
+                </div>
+                </div>
+                </div>
+                  
+                </div>
+        
+        </div>
+        
+        
+            <div class="toggle" onclick="toggleMenu();"></div>
+            <script type="text/javascript">
+                function toggleMenu(){
+                    let navigation = document.querySelector('.navigation');
+                    let toggle = document.querySelector('.toggle');
+                    navigation.classList.toggle('active');
+                    toggle.classList.toggle('active');
+                }
+            </script>
+        </body>
+        </html>
